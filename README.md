@@ -5,6 +5,7 @@
 This project implements a real-time security monitoring system on AWS to detect sensitive access using CloudTrail logs and automated alerting.
 
 ## Architecture
+![Architecture Diagram](architecture/architecture.png)
 CloudTrail logs API activity → CloudWatch Logs stores events → Metric Filters detect risky actions → CloudWatch Alarms trigger → SNS sends alerts via email.
 
 ## Security Use Cases
